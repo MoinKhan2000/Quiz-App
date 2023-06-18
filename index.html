@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <div class="navLogo">
+            <!-- <img src="" alt="logo"> -->
+            <h3 id="title">Take Quiz Now</h3>
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li> <a href="#main">Home</a></li>
+                <li> <a href="#quizMainSection">Start</a></li>
+                <li> <a href="#">Academy</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <li> <a href="#">Login<ion-icon name="log-in"></ion-icon></a></li>
+        </div>
+
+        <div id="mode"> <ion-icon class="light" name="moon-outline"></ion-icon></div>
+
+
+    </div>
+
+    <div id="main">
+        <div id="mainLeft">
+            <img src="img/bG.png" alt="">
+        </div>
+        <div id="mainRight">
+            <h1 id="heading1">Check the Level of Your Skills.</h1>
+            <h2>Take quiz test now.</h2>
+            <h2>Easy and Initiative online testing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <br> Consectetur vero fuga beatae, eos officiis
+                <br> cumque non molestias asperiores repudiandae
+                <br> eligendi reiciendis, aperiam dolor?
+            </p>
+            <a href="#quizMainSection" id="btn">Start Quiz</a>
+        </div>
+    </div>
+
+    <section id="quizMainSection">
+        <div id="bubble">
+            <span class="bubbles"></span><span class="bubbles"></span><span class="bubbles"></span><span
+                class="bubbles"></span><span class="bubbles"></span>
+            <span class="bubbles"></span><span class="bubbles"></span><span class="bubbles"></span><span
+                class="bubbles"></span><span class="bubbles"></span>
+        </div>
+        <div id="app">
+            <h1 id="mainHeading"><span id="score">Score : NA</span> <span id="attempt">Attempted : 0</span> <span
+                    id="timeToEnd">Timer<ion-icon name="timer"></ion-icon></span></h1>
+            <div id="incrementLine">
+            </div>
+            <div class="quiz">
+                <div id="leftBlur"></div>
+                <div id="rightBlur"></div>
+                <h2 id="question">Rules Of The Quiz.</h2>
+                <div id="answerButtons">
+                    <button class="btn1" style="color:black;pointer-events: none;">Each question has equal point as
+                        1.</button>
+                    <button class="btn1" style="color:black;pointer-events: none;">Once you start the quiz you cannot
+                        pause
+                        it</button>
+                    <button class="btn1" style="color:black;pointer-events: none;">You have only 2 minutes to complete
+                        the quiz
+                    </button>
+                    <button class="btn1" style="color:black;pointer-events: none;">You can not edit your responce once
+                        you select
+                        it.</button>
+                </div>
+
+                <div style="display: flex;">
+                    <button id="startQuiz" class="btn1"> Start Quiz Now </button>
+                    <button id="prev" class="btn1">&larr;Previous</button>
+                    <button id="next" class="btn1">Next &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+    integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+    integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js"></script>
+
+</html>
